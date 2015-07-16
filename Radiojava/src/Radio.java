@@ -1,4 +1,14 @@
+/* UNIVERSIDAD DEL VALLE DE GUATEMALA
+  CHISTOPHER CHIROY
+  BORIS CIFUENTES
+  DIEGO DE LEÓN 
+  
+Esta clase  a cada uno de los metodos se crean los sets ylos gets 
+para poderlos utilizar en otra clases , también crean constructores cony sin
+atributos
+*/	
 
+/* se declaran las variables, listas con sus caracteristicas*/
 public class Radio implements InterfazRadio{
 	private double estacion;
 	private int volumen;
@@ -14,6 +24,8 @@ public class Radio implements InterfazRadio{
 		frecuencia = false;
 	}
 	
+
+	/*se declaran los gets*/
 	
 	public double getEstacion() {
 		return estacion;
@@ -31,7 +43,7 @@ public class Radio implements InterfazRadio{
 		return favoritos;
 	}
 
-
+	/*se declaran los sets*/
 	public void setEstacion(double estacion) {
 		this.estacion = estacion;
 	}
