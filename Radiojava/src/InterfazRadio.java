@@ -6,4 +6,22 @@ public interface InterfazRadio {
 	final int MIN_AM = 530;
 	final double MAX_FM = 107.9;
 	final double MIN_FM = 87.9;
+	
+
+	public void encenderApagar();
+	
+	public void cambiarFrec();
+	
+	public void cargarEmisora(double emisora);
+	
+	public void adelantarEmisora();
+	
+	public void atrasarEmisora();
+	
+	public void guardarEmisora(double emisora, int posicion);
+	
+	public void subirVolumen();
+	
+	public void bajarVolumen();
+	
 }
