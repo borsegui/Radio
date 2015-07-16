@@ -1,4 +1,11 @@
-/*Esta clase es la interfaz de la Radio*/	
+/* UNIVERSIDAD DEL VALLE DE GUATEMALA
+  CHISTOPHER CHIROY
+  BORIS CIFUENTES
+  DIEGO DE LEÓN 
+  
+Esta clase es la interfaz de la Radio donde se declaran los metodos a utilizar con
+sus atributos necesarios
+*/	
 public interface InterfazRadio {
 	
 	/*Se declaran cada uno de los Atributos con sus caracteristicas*/	
