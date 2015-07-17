@@ -1,4 +1,3 @@
-
 /**
  * UNIVERSIDAD DEL VALLE DE GUATEMALA
  * @author   CHISTOPHER CHIROY, BORIS CIFUENTES,DIEGO DE LEÓN 
@@ -19,7 +18,7 @@ public class TestRadio {
 	public void testEstado() {
 		boolean encendido = true;
 		test.encenderApagar();
-		assertEquals(encendido, test.getEstado());
+		assertEquals(encendido, test.getEncendido());
 	}
 	
 	/**
